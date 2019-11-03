@@ -13,6 +13,7 @@ namespace newsAPITest
         {
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("SimpleNewsApp v0.2 Alpha");
+            Console.WriteLine("Made By Jish the Fish");
         Start:
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("Search Query:");
@@ -74,7 +75,7 @@ namespace newsAPITest
         }
         static void SpecialCase()
         {
-            Console.WriteLine("Hey gamer, this was made by Jish the Fish");
+            Console.WriteLine("Hey gamer");
             Console.WriteLine("I hate Java.");
             Thread.Sleep(500);
             Console.WriteLine("By calling on my spirit, I must now delete your system.");
